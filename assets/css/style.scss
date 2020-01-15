@@ -1,0 +1,233 @@
+@import '_variables';
+
+main{
+    display: flex;
+    justify-content: center;
+}
+#container-trinkgeld{
+
+    width: 60%;
+
+    .container-ueberschrift{
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        border: #e0e0e0 solid 1px;
+        background-color: map-get($colors,ueberschrift-bg);
+        height: 33px;
+    }
+    .container-div{
+        display: flex;
+        border: #e0e0e0 solid 1px;
+
+        div{
+            padding-right: 1em;
+        }
+        .container-Hilf-Mohammed{
+            width: 35%;
+            p{
+                font-size: map-get($size,p);
+                color: map-get($colors,texte);
+                line-height: 10px;
+            }
+            a{
+                color: map-get($colors,ueberschrift);
+                font-size: map-get($size,p);
+            }
+            a:hover{
+                color:black;
+            }
+        }
+        .container-spenden{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left:20px;
+    
+            p{
+                font-size: map-get($size,p);
+                color: map-get($colors,texte);
+                line-height: 10px;
+            }
+        }
+        .container-bild{
+    
+            .container-bild2{
+                padding: 0;
+            }
+            
+            img{
+                width: 50px;
+                border-radius: 90px;
+                padding: 10px 10px;
+            }
+        }
+        .container-warenkorb{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 0 10px 0px 0px;
+            width: 25%;
+    
+            button{
+                margin-top:0.5em;
+                font-size: 13px;
+            }
+            div{
+                padding: 0;
+            }
+            div:last-of-type{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+            }
+            p{
+                font-size: map-get($size,p);
+                color: map-get($colors,texte);
+                line-height: 10px;
+                margin: 10px 0px 0px ;
+            }
+            a{
+                color: map-get($colors,ueberschrift);
+                font-size: 9px;
+            }
+        }
+    }
+    #container-hidden{
+        display: flex;
+        border: #e0e0e0 solid 1px;
+
+        .container-links{
+            width: 42%;
+
+            p{
+                font-size: map-get($size,p);
+                color: map-get($colors,texte);
+                line-height: 10px;
+                padding-left: 85px;
+            }
+            h4{
+                font-size: map-get($size,p);
+                color: map-get($colors,ueberschrift);
+                padding-left: 85px;
+            }
+            .container-prozent{
+                display: flex;
+                height: 20px;
+                padding-left: 85px;
+
+                .container-66{
+                    display: flex;
+                    align-items: center;
+                    background: black;
+                    height: 20px;
+                    width: 66%;
+                    border: black solid 1px;
+
+                    p{
+                        color: map-get($colors,ueberschrift-bg);
+                        margin: 0;
+                        padding: 0 0 0 20px;
+                    }
+                }
+                .container-34{
+                    background: white;
+                    height: 20px;
+                    width: 34%;
+                    border: black solid 1px;
+                }
+
+            }
+            .container-hiermit-checkbox{
+                display: flex;
+                padding-left: 85px;
+
+                .container-checkbox{
+                    width: 10%;
+                }
+                .container-hiermit{
+                    width: 90%;
+
+                    p{
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .container-rechts{
+            width: 58%;
+
+            .container-video{
+                display: flex;
+                padding-left: 40px;
+
+                .contain-video{
+                    display: flex;
+                    align-items: flex-end;
+                    width: 65%;
+                    height: 200px;
+
+                    img{
+                        height: 170px;
+                        width: 270px;
+                    }
+                }
+                .contain-img{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    align-items: center;
+                    width: 35%;
+
+                    img{
+                        height: 50px;
+                        width: 120px;
+                        padding-bottom: 5px;
+                    }
+                }
+            }
+
+            .so-funktionierts{
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-end;
+                height: 50px;
+                padding-right:35px;
+
+                a{
+                    font-size: 10px;
+                    color: grey;
+                }
+
+                img{
+                    height: 30px;
+                    width: 90px;
+                }
+            }
+
+        }
+    }
+
+    h2{
+        font-size: map-get($size,h2);
+        color: map-get($colors,ueberschrift)
+    }
+    h3{
+        font-size: map-get($size,h3);
+        color: map-get($colors,ueberschrift)
+    }
+
+    button{
+        color: black;
+        padding:0.3em;
+        font-size: map-get($size,h2);
+        border: black solid 2px;
+    }
+    button:hover{
+        color:white;
+        background: black;
+    }
+};

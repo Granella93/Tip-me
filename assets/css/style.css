@@ -1,0 +1,313 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#container-trinkgeld {
+  width: 60%;
+}
+
+#container-trinkgeld .container-ueberschrift {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  border: #e0e0e0 solid 1px;
+  background-color: #f9f9f9;
+  height: 33px;
+}
+
+#container-trinkgeld .container-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: #e0e0e0 solid 1px;
+}
+
+#container-trinkgeld .container-div div {
+  padding-right: 1em;
+}
+
+#container-trinkgeld .container-div .container-Hilf-Mohammed {
+  width: 35%;
+}
+
+#container-trinkgeld .container-div .container-Hilf-Mohammed p {
+  font-size: 10px;
+  color: #686868;
+  line-height: 10px;
+}
+
+#container-trinkgeld .container-div .container-Hilf-Mohammed a {
+  color: #686868;
+  font-size: 10px;
+}
+
+#container-trinkgeld .container-div .container-Hilf-Mohammed a:hover {
+  color: black;
+}
+
+#container-trinkgeld .container-div .container-spenden {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 20px;
+}
+
+#container-trinkgeld .container-div .container-spenden p {
+  font-size: 10px;
+  color: #686868;
+  line-height: 10px;
+}
+
+#container-trinkgeld .container-div .container-bild .container-bild2 {
+  padding: 0;
+}
+
+#container-trinkgeld .container-div .container-bild img {
+  width: 50px;
+  border-radius: 90px;
+  padding: 10px 10px;
+}
+
+#container-trinkgeld .container-div .container-warenkorb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 0 10px 0px 0px;
+  width: 25%;
+}
+
+#container-trinkgeld .container-div .container-warenkorb button {
+  margin-top: 0.5em;
+  font-size: 13px;
+}
+
+#container-trinkgeld .container-div .container-warenkorb div {
+  padding: 0;
+}
+
+#container-trinkgeld .container-div .container-warenkorb div:last-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#container-trinkgeld .container-div .container-warenkorb p {
+  font-size: 10px;
+  color: #686868;
+  line-height: 10px;
+  margin: 10px 0px 0px;
+}
+
+#container-trinkgeld .container-div .container-warenkorb a {
+  color: #686868;
+  font-size: 9px;
+}
+
+#container-trinkgeld #container-hidden {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: #e0e0e0 solid 1px;
+}
+
+#container-trinkgeld #container-hidden .container-links {
+  width: 42%;
+}
+
+#container-trinkgeld #container-hidden .container-links p {
+  font-size: 10px;
+  color: #686868;
+  line-height: 10px;
+  padding-left: 85px;
+}
+
+#container-trinkgeld #container-hidden .container-links h4 {
+  font-size: 10px;
+  color: #686868;
+  padding-left: 85px;
+}
+
+#container-trinkgeld #container-hidden .container-links .container-prozent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20px;
+  padding-left: 85px;
+}
+
+#container-trinkgeld #container-hidden .container-links .container-prozent .container-66 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: black;
+  height: 20px;
+  width: 66%;
+  border: black solid 1px;
+}
+
+#container-trinkgeld #container-hidden .container-links .container-prozent .container-66 p {
+  color: #f9f9f9;
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+#container-trinkgeld #container-hidden .container-links .container-prozent .container-34 {
+  background: white;
+  height: 20px;
+  width: 34%;
+  border: black solid 1px;
+}
+
+#container-trinkgeld #container-hidden .container-links .container-hiermit-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 85px;
+}
+
+#container-trinkgeld #container-hidden .container-links .container-hiermit-checkbox .container-checkbox {
+  width: 10%;
+}
+
+#container-trinkgeld #container-hidden .container-links .container-hiermit-checkbox .container-hiermit {
+  width: 90%;
+}
+
+#container-trinkgeld #container-hidden .container-links .container-hiermit-checkbox .container-hiermit p {
+  padding: 0;
+  margin: 0;
+}
+
+#container-trinkgeld #container-hidden .container-rechts {
+  width: 58%;
+}
+
+#container-trinkgeld #container-hidden .container-rechts .container-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 40px;
+}
+
+#container-trinkgeld #container-hidden .container-rechts .container-video .contain-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 65%;
+  height: 200px;
+}
+
+#container-trinkgeld #container-hidden .container-rechts .container-video .contain-video img {
+  height: 170px;
+  width: 270px;
+}
+
+#container-trinkgeld #container-hidden .container-rechts .container-video .contain-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35%;
+}
+
+#container-trinkgeld #container-hidden .container-rechts .container-video .contain-img img {
+  height: 50px;
+  width: 120px;
+  padding-bottom: 5px;
+}
+
+#container-trinkgeld #container-hidden .container-rechts .so-funktionierts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 50px;
+  padding-right: 35px;
+}
+
+#container-trinkgeld #container-hidden .container-rechts .so-funktionierts a {
+  font-size: 10px;
+  color: grey;
+}
+
+#container-trinkgeld #container-hidden .container-rechts .so-funktionierts img {
+  height: 30px;
+  width: 90px;
+}
+
+#container-trinkgeld h2 {
+  font-size: 14px;
+  color: #686868;
+}
+
+#container-trinkgeld h3 {
+  font-size: 13px;
+  color: #686868;
+}
+
+#container-trinkgeld button {
+  color: black;
+  padding: 0.3em;
+  font-size: 14px;
+  border: black solid 2px;
+}
+
+#container-trinkgeld button:hover {
+  color: white;
+  background: black;
+}
+/*# sourceMappingURL=style.css.map */
